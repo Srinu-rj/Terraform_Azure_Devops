@@ -1,0 +1,11 @@
+variable "api_gateway_public_ip" { type = list(string) }
+variable "allocation_method" { type = string }
+variable "application_gateway_name" { type = string }
+variable "frontend_port_name" { type = string }
+variable "frontend_ip_configuration_name" { type = string }
+variable "backend_address_pool_name" { type = string }
+variable "http_backend_name" { type = string }
+variable "request_routing_rule_name" { type = string }
+variable "http_listener_name" { type = string }
+variable "routeing_listener_name" { type = string }
+variable "backend_http_settings_name" { type = string }

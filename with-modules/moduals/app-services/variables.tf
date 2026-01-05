@@ -1,0 +1,10 @@
+variable "app_service_plan" { type = string }
+variable "service_plan_sku" { type = string }
+variable "web_app_name" { type = string }
+variable "location" { type = string }
+variable "name" { type = string }
+variable "app_services_vnet" { type = string }
+variable "app_subnet_01" { type = string }
+variable "prefix" { type = string }
+variable "web_app_slot_name" { type = string }
+variable "route_table_name" { type = string }

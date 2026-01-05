@@ -1,0 +1,15 @@
+variable "aks_user_identity" { type = string }
+variable "aks_cluster_name" { type = string }
+variable "default_node_pool_name" { type = string }
+variable "network_plugin" { type = string }
+variable "default_node_pool_vm_name" { type = string }
+variable "default_max_pods" { type = number }
+variable "default_max_node_count" { type = number }
+variable "default_min_node_count" { type = number }
+variable "default_disk_type" { type = string }
+variable "admin_user" { type = string }
+variable "admin_password" { type = string }
+variable "ssh_public_key" { type = string }
+variable "network_network_plugin" { type = string }
+variable "network_dns_service_ip" { type = string }
+variable "network_service_cidr" { type = string }

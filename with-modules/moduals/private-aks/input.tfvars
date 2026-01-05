@@ -1,0 +1,16 @@
+aks_user_identity         = "aks-uami"
+aks_cluster_name          = "aks_private_cluster"
+default_node_pool_name    = "systempool"
+network_plugin            = "azure"
+default_node_pool_vm_name = "agentpool"
+default_max_pods          = "100"
+default_max_node_count    = "2"
+default_min_node_count    = "1"
+default_disk_type         = "Standard_DS2_v2"
+admin_user                = "admin"
+admin_password            = "admin1234"
+ssh_public_key            = "~/.ssh/aks_pem_key.pub"
+network_network_plugin    = "azure"
+network_dns_service_ip    = "10.0.0.10" # DNS service IP inside cluster
+network_service_cidr      = "10.0.0.0/16"
+

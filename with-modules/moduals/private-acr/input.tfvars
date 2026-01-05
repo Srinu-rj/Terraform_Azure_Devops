@@ -1,0 +1,8 @@
+acr_registry_name="spring"
+acr_sku="Premium"
+acr_private_endpoint_name="aks_pri_endpoint"
+private_dns_zone="srinu143"
+acr_vnet_link_name="acr_vnet_link"
+aks_vnet_link_name="aks_vnet_link"
+agent_vnet_link_name="agent_vnet_link"
+acr_user_identity_name="acr_user_identity_name"

@@ -1,0 +1,2 @@
+container_app_environment_name="spring_boot_azure"
+container_job="container_job_name"

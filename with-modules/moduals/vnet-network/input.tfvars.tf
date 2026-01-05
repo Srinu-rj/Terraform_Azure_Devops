@@ -1,0 +1,6 @@
+vm_rg_name=""
+vm_location=""
+vm_vnet_name=""
+sonar_public_subnet=""
+public_ip_name=""
+network_interface_name=""

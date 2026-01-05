@@ -1,0 +1,8 @@
+image_size             = "Standard_DS2_v2"
+public_ip_name         = "spring-public-vm"
+agent_vm_name          = "azuretfvm"
+admin_username         = "srinu"
+admin_password         = "srinu1234aA@"
+network_interface_name = "spring_network_interface"
+custom_ss_key_pem      = "aks_pem_key"
+network_security_group = "security_group"
