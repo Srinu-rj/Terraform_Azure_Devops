@@ -20,10 +20,10 @@ resource "azurerm_subnet" "aks_private_subnet" {
   name                 = var.aks_private_subnet_name
   resource_group_name  = azurerm_resource_group.aks_rg.name
   virtual_network_name = azurerm_virtual_network.aks_vnet.name
-  address_prefixes     = var.aks_private_subnet_cidr
-  # TODO Microsoft.Storage, Microsoft.KeyVault
-  service_endpoints = ["Microsoft.Sql"]
-}
+
+}  address_prefixes     = var.aks_private_subnet_cidr
+# TODO Microsoft.Storage, Microsoft.KeyVault
+service_endpoints = ["Microsoft.Sql"]
 
 #TODO ACR vnet and subnet
 resource "azurerm_virtual_network" "acr_vnet" {

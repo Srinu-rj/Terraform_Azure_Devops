@@ -17,7 +17,7 @@ resource "local_file" "public_key_file" {
   filename = "D:/azure_keys/aks_pem_key.pub"
 }
 resource "azurerm_ssh_public_key" "custom_ss_key_pem" {
-  name                =""custom_ss_key_pem""
+  name                ="custom_ss_key_pem"
   resource_group_name = data.azurerm_resource_group.aks_rg.name
   location            = data.azurerm_resource_group.aks_rg.location
   public_key          = tls_private_key.ssh_key.public_key_openssh #TODO only expose PUBLIC_KEY

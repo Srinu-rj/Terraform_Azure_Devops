@@ -2,4 +2,7 @@ resource_group_name = "acr-rg"
 AKS_KEY_VAULT_NAME=""
 VAULT_USER_NAME=""
 VAULT_VALUE=""
-
+acr_key_vault_name=""
+acr_config_secrets=""
+aks_key_vault_name=""
+aks_config_secrets=""

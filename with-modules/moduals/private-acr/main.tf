@@ -46,7 +46,6 @@ resource "azurerm_container_registry" "private_acr" {
     tags                    = {}
   }
 }
-
 #TODO LOGIN ACR SERVER
 output "acr_login" {
   description = "Login Acr Images"
