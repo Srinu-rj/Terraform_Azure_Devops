@@ -143,7 +143,6 @@ resource "azurerm_postgresql_flexible_server_database" "pg_db" {
   collation = "en_US.UTF8"
 }
 
-
 # TODO =========== MIGRATION ===========
 resource "azurerm_database_migration_service" "migration_service" {
   name                = var.db_migration_service_name

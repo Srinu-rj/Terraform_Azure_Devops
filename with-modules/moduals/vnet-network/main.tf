@@ -74,7 +74,7 @@ resource "azurerm_network_security_group" "network_security_grp" {
   }
 }
 
-resource "azurerm_network_interface_security_group_association" "" {
+resource "azurerm_network_interface_security_group_association" "ing_network" {
   network_interface_id      = azurerm_network_interface.nic.id
   network_security_group_id = azurerm_network_security_group.network_security_grp.id
 }
